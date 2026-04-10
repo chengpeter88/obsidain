@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"5a31c6ef52fd46f7","type":"group","x":-1000,"y":-120,"width":6180,"height":2100,"label":"關於我"},
+		{"id":"8f4292d594d32325","type":"group","x":1680,"y":168,"width":2160,"height":1704,"color":"5","label":"Data  相關活動"},
+		{"id":"6d47d2a89745ed9b","type":"file","file":"data 分享/Background.md","x":-900,"y":168,"width":720,"height":1372},
+		{"id":"076e79bbe4325e70","type":"text","text":"# Diving into Data world : To be a Analysts","x":-252,"y":-83,"width":532,"height":50},
+		{"id":"34c3851a3d34c912","type":"link","url":"https://www.thementorship.tw/","x":3200,"y":362,"width":560,"height":492},
+		{"id":"2210c288843b0593","type":"link","url":"https://datainnolab.ai/","x":3240,"y":973,"width":520,"height":587},
+		{"id":"d3df730214ac0d05","type":"file","file":"IMG_7335.jpg","x":2763,"y":973,"width":380,"height":507},
+		{"id":"862f9e540ae4f247","type":"link","url":"https://www.linkedin.com/feed/update/urn:li:activity:7447591669266423808/","x":4080,"y":206,"width":800,"height":1554},
+		{"id":"bfe09f8e939521fa","type":"file","file":"data 分享/Career.md","x":-100,"y":170,"width":760,"height":1340},
+		{"id":"6a2a3c964f8a12b1","type":"file","file":"data 分享/key take away.md","x":780,"y":170,"width":640,"height":1340},
+		{"id":"9c72b234c74d4237","type":"link","url":"https://www.widstaipei.org/","x":1752,"y":320,"width":488,"height":520},
+		{"id":"096c83a47b8870c4","type":"link","url":"https://www.datascienceassoc.org/","x":2300,"y":362,"width":820,"height":492},
+		{"id":"9489f6929ea8a71a","type":"file","file":"IMG_6634.jpg","x":1752,"y":973,"width":511,"height":287},
+		{"id":"0c1716b70e7b1b2e","type":"file","file":"IMG_7342.jpg","x":2300,"y":973,"width":463,"height":347}
+	],
+	"edges":[
+		{"id":"51fe478aaf67c6cb","fromNode":"6d47d2a89745ed9b","fromSide":"top","toNode":"076e79bbe4325e70","toSide":"bottom"},
+		{"id":"7de9c9980d92fa7d","fromNode":"bfe09f8e939521fa","fromSide":"top","toNode":"076e79bbe4325e70","toSide":"bottom"},
+		{"id":"1d5545c6b6c0f5fa","fromNode":"6a2a3c964f8a12b1","fromSide":"top","toNode":"076e79bbe4325e70","toSide":"bottom"},
+		{"id":"638cfe4eadfc1a66","fromNode":"8f4292d594d32325","fromSide":"top","toNode":"076e79bbe4325e70","toSide":"right"},
+		{"id":"88cbb34b8903479c","fromNode":"862f9e540ae4f247","fromSide":"top","toNode":"076e79bbe4325e70","toSide":"right"}
+	]
+}
