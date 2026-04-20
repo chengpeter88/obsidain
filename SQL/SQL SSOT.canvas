@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"group_advanced","type":"group","x":180,"y":140,"width":600,"height":760,"color":"5","label":"🟣🟠 BigQuery 進階"},
+		{"id":"group_basic","type":"group","x":-1020,"y":140,"width":560,"height":760,"color":"4","label":"🟢 SQL 基礎"},
+		{"id":"group_functions","type":"group","x":-420,"y":140,"width":560,"height":760,"color":"6","label":"🔵 BigQuery 函數"},
+		{"id":"node_sql_notes","type":"file","file":"SQL/sql_notes.md","x":-1000,"y":180,"width":520,"height":680},
+		{"id":"node_bq_func","type":"file","file":"SQL/BQ function.md","x":-400,"y":180,"width":520,"height":320},
+		{"id":"node_array_agg","type":"file","file":"SQL/ARRAY_AGG.md","x":-400,"y":540,"width":520,"height":340},
+		{"id":"node_partition","type":"file","file":"SQL/Bigquery note - cluster and partition.md","x":200,"y":180,"width":560,"height":420},
+		{"id":"node_export","type":"file","file":"SQL/Export and import  data to BQ.md","x":200,"y":640,"width":560,"height":240},
+		{"id":"node_docs","type":"link","url":"https://docs.cloud.google.com/bigquery/docs?hl=zh-tw","x":-840,"y":-1440,"width":1800,"height":360},
+		{"id":"58fc888611fee7c4","type":"file","file":"SQL/SQL 知識庫 MOC.md","x":-2760,"y":-1080,"width":1520,"height":1786},
+		{"id":"hub_title","type":"text","text":"# 🗄️ SQL 知識庫\n\n**學習路徑**\n1. 🟢 SQL 核心語法\n2. 🔵 Aggregate Functions\n3. 🔵 ARRAY_AGG\n4. 🟣 Partition & Cluster\n5. 🟠 Import / Export\n\n[[SQL 知識庫 MOC|→ 查看完整索引]]","x":-480,"y":-807,"width":620,"height":620}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"hub_title","fromSide":"left","toNode":"node_sql_notes","toSide":"right","label":"基礎語法"},
+		{"id":"e2","fromNode":"hub_title","fromSide":"bottom","toNode":"node_bq_func","toSide":"top","label":"函數"},
+		{"id":"e3","fromNode":"hub_title","fromSide":"right","toNode":"node_partition","toSide":"left","label":"進階"},
+		{"id":"e4","fromNode":"node_bq_func","fromSide":"bottom","toNode":"node_array_agg","toSide":"top"},
+		{"id":"e5","fromNode":"node_partition","fromSide":"bottom","toNode":"node_export","toSide":"top"},
+		{"id":"e6","fromNode":"node_docs","fromSide":"bottom","toNode":"hub_title","toSide":"top","label":"官方文件"},
+		{"id":"ca2a79bbdc52be70","fromNode":"58fc888611fee7c4","fromSide":"right","toNode":"hub_title","toSide":"left"}
+	]
+}
